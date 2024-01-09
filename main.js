@@ -1,8 +1,10 @@
 let page = document.body;
 let tematicPage = document.createElement('span');
 tematicPage.textContent = ' Temática elegida: SPA ';
-page.append(tematicPage);
-
 let iconPage = document.createElement('img');
-iconPage.getAttribute('src', 'https://static.educacionit.com/educacionit/assets/imagotype-it-fill-v2-color.svg')
+iconPage.setAttribute('src', './estilo/images/logo.svg');
+iconPage.setAttribute('alt', 'magotipo de EducacionIT a color');
+iconPage.setAttribute('width','166')
+iconPage.setAttribute('height','26')
 page.append(iconPage);
+page.append(tematicPage);
